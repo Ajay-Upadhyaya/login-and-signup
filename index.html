@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login and Signup form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="boxes">
+        <div class="login">
+          <form>
+            <h1>LogIn</h1>
+            <input type="text" id="username" placeholder="Username" required />
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+            <br />
+            <input type="checkbox" id="checkbox" required /><label
+              for="checkbox"
+              >Remember me
+            </label>
+            <label class="fp">
+              <a href="#" target="_blank"> Forgot password ?</a></label
+            ><br />
+            <button>LogIn</button><br />
+            <p>Or Sign in with</p>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.google.com/" target="_blank"
+              ><i class="fa-brands fa-google"></i
+            ></a>
+            <a href="http://twitter.com/" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <p>
+              Don't have an acount ? <a href="#" target="_blank">Sign up</a>
+            </p>
+          </form>
+        </div>
+        <div class="signup">
+          <form>
+            <h1>SignUp</h1>
+            <input type="text" id="fname" placeholder="First Name" required />
+            <input
+              type="text"
+              id="lname"
+              placeholder="Last Name"
+              required
+            /><br />
+            <input type="email" placeholder="Email" id="email" required /><br />
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            /><br />
+            <input
+              type="password"
+              id="Cpassword"
+              placeholder="Confirm Password"
+              required
+            /><br />
+            <input type="checkbox" id="checkbox1" required /><label
+              for="checkbox1"
+              >I agree with the<a href="#" target="_blank"> terms and conditions.</a></label
+            ><br />
+            <button>SignUp</button>
+            <p>
+              Already have an account ? <a href="#" target="_blank">LogIn</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
